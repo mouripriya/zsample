@@ -272,7 +272,8 @@
             </ScrollContainer>
             <Bar id="SeeMoreBar" visible="false">         
                 <contentMiddle>
-                    <Button class="textBold" id="SeeMoreID" press="onSeeMore" text="seeMore" width="100px" />
+                    <Button type="Emphasized" text="cancle" press="onCancel" enabled="{BindingModel>/submitEnabled}"/>
+					<Button class="textBold" id="SeeMoreID" press="onSeeMore" text="seeMore" width="100px" />
                 </contentMiddle>
             </Bar>
             </VBox>
